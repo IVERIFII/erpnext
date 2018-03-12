@@ -86,6 +86,11 @@ def get_data():
 					"type": "doctype",
 					"name": "Medical Code",
 					"label": _("Medical Code"),
+				},
+				{
+					"type": "doctype",
+					"name": "Patient Service Unit",
+					"label": _("Patient Service Unit")
 				}
 			]
 		},
@@ -131,27 +136,27 @@ def get_data():
 				{
 					"type": "doctype",
 					"name": "Lab Test Sample",
-					"label": _("Test Sample."),
+					"label": _("Lab Test Sample"),
 				},
 				{
 					"type": "doctype",
 					"name": "Lab Test UOM",
-					"label": _("Lab Test UOM.")
+					"label": _("Lab Test UOM")
 				},
 				{
 					"type": "doctype",
 					"name": "Antibiotic",
-					"label": _("Antibiotic.")
+					"label": _("Antibiotic")
 				},
 				{
 					"type": "doctype",
 					"name": "Sensitivity",
-					"label": _("Sensitivity Naming.")
+					"label": _("Sensitivity")
 				},
 				{
 					"type": "doctype",
 					"name": "Lab Test Template",
-					"label": _("Lab Test Template.")
+					"label": _("Lab Test Template")
 				}
 			]
 		}

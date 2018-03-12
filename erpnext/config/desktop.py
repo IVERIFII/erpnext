@@ -200,7 +200,7 @@ def get_data():
 			"color": "#fd784f",
 			"icon": "octicon octicon-calendar",
 			"label": _("Course Schedule"),
-			"link": "Calendar/Course Schedule",
+			"link": "List/Course Schedule/Calendar",
 			"_doctype": "Course Schedule",
 			"type": "list",
 			"hidden": 1
@@ -357,6 +357,14 @@ def get_data():
 			"type": "list",
 			"link": "List/Restaurant",
 			"label": _("Restaurant"),
+			"hidden": 1
+		},
+		{
+			"module_name": "Hotels",
+			"color": "#EA81E8",
+			"icon": "fa fa-bed",
+			"type": "module",
+			"label": _("Hotels"),
 			"hidden": 1
 		},
 		{
